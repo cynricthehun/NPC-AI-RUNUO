@@ -1,3 +1,26 @@
+Joey's Notes
+============
+## Server setup/configuration
+1. Download and install classic Ultima Online client. the server will need files to serve the world.
+  - https://uo.com/client-download/
+2. Clone this repo.
+3. Open code with Visual Studio 2017
+4. Ensure Server is set as the start up project.
+5. Compile and run the application.
+6. Setup an account to login with.
+
+## Accessing the Server
+1. Download Razor (https://www.uorazor.com/)
+2. Turn off proxy (windows key, search for "Proxy")
+3. Start Razor and ensure/set these values
+  - Load Client - 2d Client (Auto Detect)
+  - Patch client encryption should be true.
+  - UO Data Directory set to (Auto Detect).
+  - Server - 127.0.0.1
+  - Port - 2593
+4. Click "Ok"
+5. Login with username and password you set before.
+
 runuo
 =====
 
